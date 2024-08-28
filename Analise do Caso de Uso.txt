@@ -1,0 +1,44 @@
+Analise do Caso de Uso
+
+===================================================================
+Atores: Funcionário, Gerente Produto, Administrador
+Fluxo:
+1.0.Efetuar login
+   1.1. Usuario deve ter sido cadastrado pelo administrador;
+	1.2. Inserir Usuario e Senha validas de acordo com o cadastro.
+2.0.Visualizar Perfil
+   2.1.Cada usuario deve poder somente visualizar perfil do mesmo.
+3.0.Visualizar Produção
+   3.1. Apenas visualizar dados e graficos das produções e cultivos.
+
+=====================================================================
+
+Atores: Gerente Produto, Administrador
+Fluxo:
+1.0.Disponibilidade de produto
+   1.1.Definir Produto
+   1.2.Definir quantidade
+2.0.Gerenciar Produto
+   2.1.Incluir Produto
+   2.2.Editar Produto
+   2.3.Excluir Produto
+3.0.Gerar Relatorio
+   Gerar relatorio para analise e gestão de produção
+
+=====================================================================
+
+Atores: Administrador
+Fluxo:
+1.0.Fornecedor
+   1.1.Adicionar
+   1.2.Editar
+   1.3.Visualizar 
+   1.4.Bloquear
+2.0.Usuario
+   1.1.Adicionar
+   1.2.Editar
+   1.3.Visualizar 
+   1.4.Bloquear
+
+Segurança e Controle: A presença do ator "Administrador" e suas funções associadas ao gerenciamento de perfis sugere a importância de controle de acesso e segurança no sistema.
+Hierarquia de Acesso: Com os atores presentes no caso de uso foi possível perceber que há uma hierarquia de acesso com cada nível obtendo suas respectivas funções.
